@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #1E3A8A; /* Blue */
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    align-self: flex-start;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 0; /* Remove padding for sections */
+}
+
+section {
+    background-image: url('https://assets.onecompiler.app/43af7ep2e/43amn4wyn/IMG-20250220-WA0024%20(1).jpg'); /* Center background image */
+    background-size: cover;
+    background-position: center;
+    color: black; /* Change text color to black */
+    padding: 4rem; /* Add padding to the section */
+}
+
+footer {
+    background-color: #1E3A8A; /* Blue */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #1E3A8A; /* Blue */
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #1E3A8A; /* Blue */
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1C336A; /* Darker Blue */
+}
